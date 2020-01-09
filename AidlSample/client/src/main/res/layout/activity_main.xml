@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bindService"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBind"
+        android:text="send data" />
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSend"
+        android:text="UNbind service" />
+
+
+</RelativeLayout>
